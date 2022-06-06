@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@lib/web-core/(.*)": "<rootDir>/../libs/web-core/src/$1",
+    "@lib/web-core": "<rootDir>/../libs/web-core/src",
+    "@lib/core/(.*)": "<rootDir>/../libs/core/src/$1",
+    "@lib/core": "<rootDir>/../libs/core/src"
+  }
+}
